@@ -8,7 +8,7 @@
 |:---:|:---|
 |環境 |Docker, nginx|
 |言語 |PHP, Javascript |
-|DB |Mysql(phpMyAdmin) |
+|DB |Mysql (phpMyAdmin) |
 |ライブラリー |jQuery |
 |API |open-meteo, Geolocation, HeartRailsGeo |
 |その他 |html, css, vscode |
@@ -23,18 +23,49 @@
 
 ## 外観
 **1ページめ、主に検索及び登録をします。**
-![page1](https://user-images.githubusercontent.com/85460645/162576337-1383fbd8-8c10-4a04-ab36-a4b51fedad06.png)
+
+<img src="https://user-images.githubusercontent.com/85460645/162576337-1383fbd8-8c10-4a04-ab36-a4b51fedad06.png" width="700">
 
 **2ページ目、天気を取得して表示します。**
-![page2](https://user-images.githubusercontent.com/85460645/162576338-dc68b187-5cbf-4874-9541-912f834bb803.png)
+
+<img src="https://user-images.githubusercontent.com/85460645/162576338-dc68b187-5cbf-4874-9541-912f834bb803.png" width="700">
 
 ## 機能
 - 機能1
-![func1](https://user-images.githubusercontent.com/85460645/162576340-5d667cf3-2f11-4132-8254-72b0221a0e9d.png)
+
+<img src="https://user-images.githubusercontent.com/85460645/162576340-5d667cf3-2f11-4132-8254-72b0221a0e9d.png" width="500">
+
 1. 都道府県から検索できます。
 2. 検索したら、履歴が残り、セレクトボックスの下に名前（検索回数）という形で表示されます。
 3. この履歴をタッチすると検索でき、天気情報が表示できます。
 
-![func2](https://user-images.githubusercontent.com/85460645/162576341-829948ed-c859-42fc-8cbc-421e51c8b673.png)
+- 機能2
 
-![func3](https://user-images.githubusercontent.com/85460645/162576336-b23fd4ec-1e54-493c-b069-c2dfdf58ab32.png)
+<img src="https://user-images.githubusercontent.com/85460645/162576341-829948ed-c859-42fc-8cbc-421e51c8b673.png" width="400">
+
+1. 現在地の情報(地名、緯度、経度)を取得でき、左のボックスに自動設定できます。
+2. 自分で自由に設定することもできます。
+3. 登録すると、機能3で使えます。既に同じ地名が登録されている場合は登録不可です。
+
+- 機能3
+
+<img src="https://user-images.githubusercontent.com/85460645/162576336-b23fd4ec-1e54-493c-b069-c2dfdf58ab32.png" width="500">
+
+1. 機能2で登録したものを検索して天気情報を表示できます。
+2. 仕様は機能1と同じ。
+
+- 見た目に関して
+1. 現在の場所名の今の時間及び天気を表示します。
+2. 絵文字⇔天気照合表の用意しています。
+3. 今日から1週間分の天気を表示できます。
+
+## 工夫した点
+できるだけユーザーを楽させるように、
+
+1. 履歴ワードを追加し、1タップで表示できるようにしました。降順で並んでいます。 
+2. 自由に情報登録でき、使いやすさをアップしました。
+
+## 作ってみて
+1. 初めてAPIを利用したので、APIについての理解が深まった。
+2. 初めてPHPでアプリ作ったので、PHPについての理解が深まった。
+3. モバイルアプリに関して勉強しているので、これを応用して、モバイルアプリ版でも、いつか作って実際に利用していきたいです。
