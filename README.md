@@ -26,7 +26,7 @@
 
 <img src="https://user-images.githubusercontent.com/85460645/162576337-1383fbd8-8c10-4a04-ab36-a4b51fedad06.png" width="700">
 
-**2ページ目、天気を取得して表示します。**
+**2ページ目、天気を取得して表示します。**（画像をタッチしたら大きく表示されます）
 
 <img src="https://user-images.githubusercontent.com/85460645/162576338-dc68b187-5cbf-4874-9541-912f834bb803.png" width="700">
 
